@@ -1,0 +1,13 @@
+{
+  "version": "1.0.1",
+  "name": "Baseline",
+  "description": "Manifest V2 Baseline",
+  "permissions": ["*://*/*"],
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "manifest_version": 2
+}
