@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "0.0.102",
   "name": "Test",
   "description": "Manifest V3 Test",
   "host_permissions": ["*://*/*"],
