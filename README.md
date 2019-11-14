@@ -18,4 +18,4 @@ Well ... crap. There's an Errors button in the UI bar.
 Site permissions and API permissions are now two distinct things.
 
 *[Episode Three: Browser Button and Default Pop-Up](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_003.md)*<br>
-Blocked here; something's up with V3.
+'action' requires trunk channel or newer, but this is the canary channel. (╯°□°)╯︵ ┻━┻
