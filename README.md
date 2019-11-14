@@ -16,3 +16,6 @@ Well ... crap. There's an Errors button in the UI bar.
 
 *[Episode Two: Permission to Run](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_002.md)*<br>
 Site permissions and API permissions are now two distinct things.
+
+*[Episode Three: Browser Button and Default Pop-Up](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_003.md)*<br>
+Blocked here; something's up with V3.
