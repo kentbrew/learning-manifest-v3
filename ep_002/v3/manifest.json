@@ -1,0 +1,13 @@
+{
+  "version": "1.0.1",
+  "name": "Test",
+  "description": "Manifest V3 Test",
+  "host_permissions": ["*://*/*"],
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "manifest_version": 3
+}
