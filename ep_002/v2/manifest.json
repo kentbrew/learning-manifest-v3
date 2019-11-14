@@ -1,5 +1,5 @@
 {
-  "version": "0.0.101",
+  "version": "0.0.102",
   "name": "Baseline",
   "description": "Manifest V2 Baseline",
   "permissions": ["*://*/*"],
