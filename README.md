@@ -18,7 +18,7 @@ Well ... crap. There's an Errors button in the UI bar.
 Site permissions and API permissions are now two distinct things.
 
 *[Episode Three: Browser Button and Default Pop-Up](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_003.md)*<br>
-'action' requires trunk channel or newer, but this is the canary channel.
+`'action' requires trunk channel or newer, but this is the canary channel`
 
 *[Episode Four: Executing Scripts](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_004.md)*<br>
 Looks like we need to migrate to service workers sooner rather than later....
