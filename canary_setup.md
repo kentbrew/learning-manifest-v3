@@ -1,12 +1,6 @@
 # Testing Extensions on Chrome Canary
 ###### Kent Brewster, 2019-11-13. For fastest contact, Twitter is your best bet; I'm [@kentbrew](https://twitter.com/kentbrew) there and everywhere else that hasn't already kicked me off.
 
-At long last it's time to get serious about Manifest V3:
-
-https://developer.chrome.com/extensions/migrating_to_manifest_v3
-
-https://developer.chrome.com/extensions/migrating_to_service_workers
-
 Problem: all the cool new toys only work in Chrome Canary.  If you're like me, your chrome://extensions page is already a giant mass of internally-conflicting test extensions and you dislike the taste of coal dust, so you've avoided Canary versions of Chrome at all costs.
 
 Here's how to get Chrome Canary running in parallel with production Chrome, without crossing the streams or getting Canary's peanut butter in your chocolate. (Yes, sorry, these instructions are OSX-centric; pull requests for this or any other issue will be gratefully accepted.)
