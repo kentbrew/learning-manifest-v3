@@ -1,0 +1,17 @@
+{
+  "version": "0.0.103",
+  "name": "Baseline",
+  "description": "Manifest V2 Baseline",
+  "permissions": ["*://*/*"],
+  "browser_action": {
+    "default_title": "MV2Baseline",
+    "default_popup": "html/popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "manifest_version": 2
+}
