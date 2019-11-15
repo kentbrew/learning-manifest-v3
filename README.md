@@ -20,5 +20,5 @@ Site permissions and API permissions are now two distinct things.
 💩 *[Episode Three: Browser Button and Default Pop-Up](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_003.md)*<br>
 `'action' requires trunk channel or newer, but this is the canary channel`
 
-🤷 *[Episode Four: Executing Scripts](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_004.md)*<br>
-Along the way we get a service worker installed, but there's an important caveat.
+🤷 *[Episode Four: ~~Executing Scripts~~ Service Workers](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_004.md)*<br>
+This episode started off being about executing content scripts, but we have to deal with service workers first.
