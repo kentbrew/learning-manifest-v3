@@ -3,7 +3,7 @@
   "name": "Test",
   "description": "Manifest V3 Test",
   "background": {
-    "service_worker": "js/background.js"
+    "service_worker": "background.js"
   },
   "permissions": ["tabs"],
   "host_permissions": ["*://*/*"],
