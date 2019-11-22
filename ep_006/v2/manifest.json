@@ -1,0 +1,16 @@
+{
+  "name": "Baseline",
+  "description": "Manifest V2 Baseline",
+  "version": "0.1.106",
+  "permissions": ["contextMenus", "tabs", "*://*/*"],
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "manifest_version": 2
+}
