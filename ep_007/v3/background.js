@@ -1,3 +1,14 @@
+// listen for extension install
+chrome.runtime.onInstalled.addListener(() => {
+  // create a menu item
+  chrome.contextMenus.create({
+    id: "TestV3",
+    title: "V3 Test",
+    // show the menu over everything
+    contexts: ["all"]
+  });
+});
+
 // listen for a browser session start
 chrome.runtime.onStartup.addListener(() => {
   // initialize the click counter to zero
@@ -5,17 +16,6 @@ chrome.runtime.onStartup.addListener(() => {
     // let us know it worked
     console.log("V3 Test: initialized test click counter to 0");
   });
-});
-
-// remove existing menus or else we'll throw an error when we restart
-chrome.contextMenus.removeAll();
-
-// create a menu item
-chrome.contextMenus.create({
-  id: "TestV3",
-  title: "V3 Test",
-  // show the menu over everything
-  contexts: ["all"]
 });
 
 // what to do when our menu is clicked
