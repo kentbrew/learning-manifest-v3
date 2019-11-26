@@ -28,3 +28,6 @@ The old-school inline `onclick` handler won't do, because our service worker is 
 
 ⚠️ *[Episode Six: Convert Any Image URL to Data](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_006.md)*<br>
 This is hairy. Manifest V3 has no DOM in the background, so no more drawing to `canvas` after `img.onload`.  (Updated: this may be a bug. Here's [Testing Cross-Origin Fetch from Service Workers](https://github.com/kentbrew/learning-manifest-v3/blob/master/CORtest.md), to help figure it out.)
+
+✅ *[Episode Seven: The Persistence of Memory](https://github.com/kentbrew/learning-manifest-v3/blob/master/ep_007.md)*<br>
+Local storage will encourage smarter coding and better awareness of how some global events and systems behave.
