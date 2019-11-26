@@ -1,6 +1,6 @@
 // listen for extension install
 chrome.runtime.onInstalled.addListener(() => {
-  // create a menu item
+  // only create our menu item once
   chrome.contextMenus.create({
     id: "TestV3",
     title: "V3 Test",
