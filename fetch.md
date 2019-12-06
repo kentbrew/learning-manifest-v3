@@ -49,3 +49,5 @@ fetch("https://www.example.com/")
 The background version successfully fetches example.com; the service worker version fails on CORS policy.
 
 Testing on Chrome Canary Version 80.0.3987.0; on stable you'll get an error saying background.service_worker is not ready for prime time.
+
+Looks like this may be a very old known bug:  https://bugs.chromium.org/p/chromium/issues/detail?id=661827
