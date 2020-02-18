@@ -1,3 +1,5 @@
+Good news! This seems to be (fixed as of 2020-02-07)[https://bugs.chromium.org/p/chromium/issues/detail?id=661827]. I'll leave this here in case of regression.
+
 # Inconsistent fetch API behavior
 
 In a previous post from November I reported difficulties using the fetch API under Manifest V3 to load cross-domain resouces with `"<all_urls>"` or `"*://*/*"`.
